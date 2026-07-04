@@ -1,0 +1,11 @@
+FROM qwen2.5:7b
+
+SYSTEM """
+ตอบเป็นภาษาไทยเท่านั้น
+ห้ามใช้ภาษาจีน ญี่ปุ่น รัสเซีย หรืออักขระต่างประเทศทุกชนิด
+
+$(cat ~/ai-knowledge/system.txt)
+
+===== KNOWLEDGE BASE =====
+$(cat ~/ai-knowledge/power-electronics/synchronous-buck.md)
+"""
