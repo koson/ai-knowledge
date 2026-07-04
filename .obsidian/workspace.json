@@ -185,6 +185,14 @@
   },
   "active": "104f17f6fb7ac874",
   "lastOpenFiles": [
+    "system.txt",
+    "circuits/rc-low-pass.md",
+    "circuits/rc-high-pass.md",
+    "circuits",
+    "c-programming/pointers.md",
+    "c-programming",
+    "ask-knowledge.sh",
+    "Modelfile",
     "power-electronics/synchronous-buck.md"
   ]
 }
